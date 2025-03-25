@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  user-select: none;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px) brightness(.8);
+
+  z-index: -1;
+  pointer-events: none;
+
+  backface-visibility: hidden;
+
+  transform: scale(1.1);
+}
+
+.content {
+  margin-top: 120px;
+
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.search {
+  outline: none;
+}
+
+.search input:focus {
+  outline: none;
+
+  box-shadow: none;
+  color: white;
+
+}
+
+.search input {
+  background-color: rgba(0, 0, 0, 0.348);
+  color: white;
+}
+
+.search input::placeholder {
+  color: rgb(214, 209, 209);
+
+  opacity: 1;
+
+}
+
+.location {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.a {
+  font-weight: 500;
+
+}
+
+.weather {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+
+  font-size: x-small;
+}
+
+.inrbox {
+  font-family: 'Poppins', sans-serif;
+}
+
+.inrbox1 {
+  font-family: 'Poppins', sans-serif;
+  width: 6.3rem;
+}
+
+.ul::-webkit-scrollbar {
+  width: 6px;
+
+  height: 6px;
+
+}
+
+.ul::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.105);
+
+  border-radius: 4px;
+
+}
+
+.ul::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.399);
+
+  border-radius: 4px;
+
+}
+
+.ul::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7);
+
+}
+
+@media screen and (max-width: 768px) {
+  .ul {
+
+    scrollbar-width: none;
+
+    -ms-overflow-style: none;
+
+  }
+
+  .ul::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.bg1 {
+  background-color: rgba(0, 0, 0, 0.409);
+}
+
+.ani {
+  transition: all 0.2s ease;
+  /* Combine transitions for height and opacity */
+}
+
+.t {
+  font-size: x-small;
+  font-family: 'Poppins', sans-serif;
+}
+
+.con {
+  filter: drop-shadow(5px 5px 10px rgba(56, 55, 55, 0.152));
+}
+
+
+
+
+
+
+.preloader {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: -100px;
+  height: 110px;
+  width: 110px;
+  left: 50%;
+  top: 50%;
+  transform: scale(1.5);
+}
+
+svg {
+  width: 110px;
+  height: 110px;
+}
+
+path {
+  stroke: #1ced1906;
+  stroke-width: 0.25;
+  fill: #d5064b;
+}
+
+#cloud {
+  position: relative;
+  z-index: 2;
+}
+
+#cloud path {
+  fill: #00c3ff;
+}
+
+#sun {
+  margin-left: -10px;
+  margin-top: 6px;
+  opacity: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 45px;
+  top: 15px;
+  z-index: 1;
+  /* background-color: #ff3700; */
+  animation-name: rotate;
+  animation-duration: 16000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#sun path {
+  stroke-width: 0.25;
+  fill: #f36b0a;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* Rain */
+.rain {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-top: -32px;
+  margin-left: 19px;
+}
+
+.drop {
+  opacity: 1;
+  background: #003379;
+  display: block;
+  float: left;
+  width: 3px;
+  height: 10px;
+  margin-left: 4px;
+  border-radius: 0px 0px 6px 6px;
+
+  animation-name: drop;
+  animation-duration: 350ms;
+  animation-iteration-count: infinite;
+}
+
+.drop:nth-child(1) {
+  animation-delay: -130ms;
+}
+
+.drop:nth-child(2) {
+  animation-delay: -240ms;
+}
+
+.drop:nth-child(3) {
+  animation-delay: -390ms;
+}
+
+.drop:nth-child(4) {
+  animation-delay: -525ms;
+}
+
+.drop:nth-child(5) {
+  animation-delay: -640ms;
+}
+
+.drop:nth-child(6) {
+  animation-delay: -790ms;
+}
+
+.drop:nth-child(7) {
+  animation-delay: -900ms;
+}
+
+.drop:nth-child(8) {
+  animation-delay: -1050ms;
+}
+
+.drop:nth-child(9) {
+  animation-delay: -1130ms;
+}
+
+.drop:nth-child(10) {
+  animation-delay: -1300ms;
+}
+
+
+@keyframes drop {
+  50% {
+    height: 45px;
+    opacity: 0;
+  }
+
+  51% {
+    opacity: 0;
+  }
+
+  100% {
+    height: 1px;
+    opacity: 0;
+  }
+}
