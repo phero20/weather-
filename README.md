@@ -13,24 +13,25 @@ A modern and responsive weather web app built using React, Vite, Tailwind CSS, a
 🔍 Search by city name,state and country
 🕒 Hourly forecast for the next 24 hours
 📅 7-day forecast
+
 🌡️ Detailed weather metrics:
-Temperature
-Humidity
-precipitation
-Wind Speed
-Rain chances %
-Ait quality
-UV Index
-🌙 Support for day/night visuals
-⚡ Fast loading with Vite
-🎨 Fully responsive using Tailwind CSS
+Temperature, 
+Humidity, 
+precipitation, 
+Wind Speed, 
+Rain chances %, 
+Ait quality, 
+UV Index, 
+🌙 Support for day/night visuals, 
+⚡ Fast loading with Vite, 
+🎨 Fully responsive using Tailwind CSS, 
 
 
 
 🛠️ Tech Stack
 
-Tech	          Description
-React           Frontend framework
-Vite	          Fast dev server and bundler
-Tailwind CSS	  Utility-first CSS framework
-WeatherAPI    	Real-time and forecast weather data
+Tech	          Description, 
+React           Frontend framework, 
+Vite	          Fast dev server and bundler, 
+Tailwind CSS	  Utility-first CSS framework, 
+WeatherAPI    	Real-time and forecast weather data, 
