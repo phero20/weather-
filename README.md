@@ -30,8 +30,8 @@ UV Index,
 
 🛠️ Tech Stack
 
-Tech	          Description, 
-React           Frontend framework, 
-Vite	          Fast dev server and bundler, 
-Tailwind CSS	  Utility-first CSS framework, 
-WeatherAPI    	Real-time and forecast weather data, 
+Tech	       
+React          
+Vite	         
+Tailwind CSS	 
+WeatherAPI    
