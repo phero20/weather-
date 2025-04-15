@@ -6,32 +6,32 @@ A modern and responsive weather web app built using React, Vite, Tailwind CSS, a
 🔗 Live Demo: https://weatherr.kesug.com
 
 
+               
 
-
-🌟 Features
-
-🔍 Search by city name,state and country
-🕒 Hourly forecast for the next 24 hours
-📅 7-day forecast
-
+🌟 Features   
+      
+🔍 Search by city name,state and country  
+🕒 Hourly forecast for the next 24 hours  
+📅 7-day forecast  
+      
 🌡️ Detailed weather metrics:
-Temperature, 
-Humidity, 
-precipitation, 
-Wind Speed, 
-Rain chances %, 
-Ait quality, 
-UV Index, 
-🌙 Support for day/night visuals, 
-⚡ Fast loading with Vite, 
-🎨 Fully responsive using Tailwind CSS, 
+Temperature  
+Humidity   
+precipitation   
+Wind Speed   
+Rain chances %   
+Ait quality   
+UV Index   
+🌙 Support for day/night visuals   
+⚡ Fast loading with Vite   
+🎨 Fully responsive using Tailwind CSS   
 
+    
 
-
-🛠️ Tech Stack
-
-Tech	       
-React          
-Vite	         
-Tailwind CSS	 
-WeatherAPI    
+🛠️ Tech Stack  
+      
+Tech       
+React             
+Vite	            
+Tailwind CSS  
+WeatherAPI   
